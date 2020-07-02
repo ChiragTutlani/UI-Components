@@ -1,0 +1,27 @@
+:root, *, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+.horizontal-wrapper {
+  background-color: aliceblue;
+  width: 40%;
+  height: 200px;
+  padding: 40px 10px;
+  display: flex;
+  flex: row nowrap;
+
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.item {
+  flex-basis: 0 0 120px;
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 120px;
+  background-color: beige;
+}
